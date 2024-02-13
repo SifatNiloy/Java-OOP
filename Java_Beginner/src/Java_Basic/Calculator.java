@@ -13,8 +13,12 @@ public class Calculator {
         int secondNumber = scanner.nextInt();
 
         int sum = firstNumber + secondNumber;
+        int subtraction = firstNumber - secondNumber;
+        int multiplication = firstNumber * secondNumber;
 
         System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);
+        System.out.println("The subtraction of " + firstNumber + " and " + secondNumber + " is: " + subtraction);
+        System.out.println("The multiplication of " + firstNumber + " and " + secondNumber + " is: " + multiplication);
 	}
 
 }
