@@ -1,3 +1,4 @@
+package Java_Basic;
 import java.util.Scanner;
 
 public class Triangle_validity {

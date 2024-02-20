@@ -1,3 +1,4 @@
+package Java_Basic;
 import java.util.Scanner;
 public class nested_loop_task_1 {
 
