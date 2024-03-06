@@ -1,5 +1,4 @@
 package midSolveSummer21;
-
 import java.util.Scanner;
 
 public class pineApple {
@@ -20,7 +19,6 @@ public class pineApple {
 		}
 		double price= (pineapplePrice*n-pineapplePrice*n*discount)+((pineapplePrice*n-pineapplePrice*n*discount)*tax)+ delivery;
 		System.out.println("payable amount: "+ price);
-
 	}
 
 }
