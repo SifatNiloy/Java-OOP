@@ -18,5 +18,4 @@ public class Calculate {
 	public static double calculate(int num1, float num2, double num3) {
 		return (num1*num2)* Math.pow(num1,(num2+num3))-125.5;
 	}
-
 }
