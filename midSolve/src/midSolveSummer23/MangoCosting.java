@@ -22,8 +22,6 @@ public class MangoCosting {
 		double taxedPrice= discountedPrice+ discountedPrice*vat;
 		double totalPrice= taxedPrice+ delivery;
 		System.out.println("payable total: "+ totalPrice);
-		
-
 	}
 
 }
