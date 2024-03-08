@@ -18,7 +18,6 @@ public class SumOfDigits {
 			sum= sum+digit;
 		}
 		System.out.println(sum);
-
 	}
 
 }
