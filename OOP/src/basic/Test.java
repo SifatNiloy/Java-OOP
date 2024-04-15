@@ -9,15 +9,13 @@ public class Test {
 		teacher1.name= "Anisul Islam";
 		teacher1.gender="Male";
 		teacher1.phone=2987435;
-		
-		System.out.println(teacher1.name+"\n"+teacher1.gender+"\n"+teacher1.phone);
+		teacher1.displayInformation();
 		
 		Teacher teacher2= new Teacher(); //object created
-		teacher1.name= "sifat";
-		teacher1.gender="Male";
-		teacher1.phone=1684345;
-		
-		System.out.println(teacher1.name+"\n"+teacher1.gender+"\n"+teacher1.phone);
+		teacher2.name= "sifat";
+		teacher2.gender="Male";
+		teacher2.phone=1684345;
+		teacher2.displayInformation();
 	}
 
 }
