@@ -8,8 +8,6 @@ public class Check_inheritance {
 		int[] marks = new int[10];
 		
 		Student s = new Student("rakib", 123, "s@gmail.com", 3.8f, marks);
-		
-		
 		Student[] stu_info = new Student[10];
 		stu_info[0] = s;
 	
@@ -63,7 +61,6 @@ public class Check_inheritance {
 		else
 			System.out.println(" not okay!");
 
-	
 	}
 
 }

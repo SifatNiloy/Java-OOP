@@ -1,6 +1,5 @@
 package Inheritance;
 
-
 public class Faculty extends Person{
 	
 	public String designation;
@@ -10,5 +9,5 @@ public class Faculty extends Person{
 		super(name, id, email);
 		this.designation = Des;
 	}
-
+	
 }
