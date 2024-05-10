@@ -15,7 +15,7 @@ public class Array2 {
 //		weekdays[5]="Thursday";
 //		weekdays[6]="Friday";
 		
-		String[] weekdays= {"saturday", "sunday", "monday", "wednesday", "thursday", "friday"};
+		String[] weekdays= {"saturday", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday"};
 		
 		Scanner input= new Scanner(System.in);
 		System.out.println("please enter a value from 1 to 7");
